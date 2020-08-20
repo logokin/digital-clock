@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 5rem;
+  background-color: green;
+  border: 2px solid white;
+  color: white;
+  padding: 2rem;
+  border-radius: 10%;
+}
+.box {
+  position: absolute;
+  top: 3rem;
+  margin: 1rem;
+  border: 2px green solid;
+  background: radial-gradient(white, black);
+}
+button {
+  margin: 0.4rem;
+}
+
+@media (max-width: 450px) {
+  body {
+    overflow: hidden;
+  }
+  #clock {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
